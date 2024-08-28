@@ -105,5 +105,17 @@ a{
 }
 /* -------Nav end---- */
 .container{
-    padding: 20px ;
+    padding: 20px 6% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.left-sidebar{
+    flex-basis: 45%;
+    align-self: flex-start;
+}
+.right-sidebar{
+    flex-basis: 45%;
+    align-self: flex-start;
 }
